@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		22881C012D1FA61200C7D817 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 22881BF52D1FA61200C7D817 /* .gitignore */; };
+		22881C042D1FA8D900C7D817 /* REDME.MD in Resources */ = {isa = PBXBuildFile; fileRef = 22881C032D1FA8D900C7D817 /* REDME.MD */; };
+		22881C062D1FA9D400C7D817 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 22881C052D1FA9D400C7D817 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22409BF42D17B5EB00686224 /* FormulariosUdeM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormulariosUdeM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22881BF52D1FA61200C7D817 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		22881C032D1FA8D900C7D817 /* REDME.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = REDME.MD; sourceTree = "<group>"; };
+		22881C052D1FA9D400C7D817 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +41,8 @@
 		22409BEB2D17B5EB00686224 = {
 			isa = PBXGroup;
 			children = (
+				22881C052D1FA9D400C7D817 /* LICENSE */,
+				22881C032D1FA8D900C7D817 /* REDME.MD */,
 				22881BF52D1FA61200C7D817 /* .gitignore */,
 				22409BF62D17B5EB00686224 /* FormulariosUdeM */,
 				22409BF52D17B5EB00686224 /* Products */,
@@ -115,7 +121,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22881C042D1FA8D900C7D817 /* REDME.MD in Resources */,
 				22881C012D1FA61200C7D817 /* .gitignore in Resources */,
+				22881C062D1FA9D400C7D817 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
